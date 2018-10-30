@@ -24,12 +24,12 @@ public class Applogin {
 		public void mobiletest() throws MalformedURLException{
 			
 			DesiredCapabilities cap=new DesiredCapabilities();
-			/*cap.setCapability("deviceName", "OnePlus 6");
+			cap.setCapability("deviceName", "OnePlus 6");
 			cap.setCapability(CapabilityType.BROWSER_VERSION, "");
 			cap.setCapability(CapabilityType.PLATFORM_NAME, "Android");
 			cap.setCapability(CapabilityType.VERSION, "9");
 			cap.setCapability("appPackage", "com.pearson.android.readerplus.dev");
-			cap.setCapability("appActivity","com.pearson.android.readerplus.MainActivity");*/
+			cap.setCapability("appActivity","com.pearson.android.readerplus.MainActivity");
 			
 			
 			//Runtime.getRuntime().exec(adb shell am start -n io.appium.unlock/.Unlock);
